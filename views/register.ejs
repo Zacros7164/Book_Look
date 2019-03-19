@@ -11,11 +11,11 @@
             <form action="/registerProcess" method="post">
               <div class="form-group">
                 <label class="mt-3" for="text">User Name:</label>
-                <input type="text" class="form-control" name="userName">
+                <input type="text" class="form-control" name="userName" placeholder="username (optional)">
                 <label class="mt-3" for="email">Email Address:</label>
-                <input type="email" class="form-control" name="email">
+                <input data-cy="email" type="email" class="form-control" name="email" placeholder="Email">
                 <label class="mt-3" for="password">Password:</label>
-                <input type="password" class="form-control" name="password">
+                <input data-cy="password" type="password" class="form-control" name="password" placeholder="Password">
                 <button class="pageBtn mt-3">Register!</button>
               </div>
             </form>
