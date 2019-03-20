@@ -10,13 +10,13 @@
                 <form action="/reviewProcess" method="post">
                     <div class="form-group-one">
                         <label for="bookTitle">Book Title:</label>
-                        <input type="text" class="form-control cantBeBlank titleClass" name="title" id="titleId" required>
+                        <input data-cy="title" type="text" class="form-control cantBeBlank titleClass" name="title" id="titleId" required>
                         <label for="author">Author:</label>
-                        <input type="text" class="form-control cantBeBlank" name="author" id="authorId" required>
+                        <input data-cy="author" type="text" class="form-control cantBeBlank" name="author" id="authorId" required>
                         <label for="isbn">ISBN:</label>
-                        <input type="text" class="form-control cantBeBlank" name="isbn" id="isbnId" required>
+                        <input data-cy="ISBN" type="text" class="form-control cantBeBlank" name="isbn" id="isbnId" required>
                         <div class="form-check">
-                            <input class="form-check-input likeClass cantBeBlank" type="radio" name="reviewRadios" id="likeId" value="1" >
+                            <input class="form-check-input likeClass cantBeBlank" type="radio" name="reviewRadios" id="likeId" value="1" required >
                             <label class="form-check-label" for="likeRadio">
                               Like
                             </label>
@@ -36,7 +36,7 @@
                             </select>
                         </div>
                         <div class="submitDiv">
-                            <button class="pageBtn" >Submit!</button>
+                            <button id="submit" class="pageBtn" >Submit!</button>
                         </div>
                     </div>
                 </form>
