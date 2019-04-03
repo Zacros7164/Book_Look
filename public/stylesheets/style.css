@@ -4,7 +4,7 @@ html{
 }
 
 body {
-  background-image: url("/images/libraryStacks.jpg");
+  background-image: url("/images/minified/libraryStacks-min.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
